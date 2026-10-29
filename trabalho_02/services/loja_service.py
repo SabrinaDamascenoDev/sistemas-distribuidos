@@ -8,23 +8,19 @@ class LojaService:
         self.estoque = Estoque()
         self.vendas = []
         
-    # Método Remoto 1
     def adicionar_camiseta(self, kwargs):
         nova_camiseta = Camiseta(kwargs['id_peca'], kwargs['nome'], kwargs['preco'], kwargs['tamanho'])
         self.estoque.adicionar_item(nova_camiseta)
         return {"status": "sucesso", "mensagem": f"Camiseta {nova_camiseta.nome} adicionada ao estoque."}
 
-    # Método Remoto 2
     def adicionar_calca(self, kwargs):
         nova_calca = Calca(kwargs['id_peca'], kwargs['nome'], kwargs['preco'], kwargs['material'])
         self.estoque.adicionar_item(nova_calca)
         return {"status": "sucesso", "mensagem": f"Calça {nova_calca.nome} adicionada ao estoque."}
 
-    # Método Remoto 3
     def consultar_estoque(self, kwargs):
         return self.estoque.to_list()
 
-    # Método Remoto 4
     def registrar_venda(self, kwargs):
         id_peca = kwargs['id_peca']
         quantidade = kwargs['quantidade']

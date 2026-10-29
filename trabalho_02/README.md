@@ -1,10 +1,5 @@
-# Trabalho 2 - Sistemas Distribuídos: Implementação de RPC/RMI
+# Sistema de Gestão de Loja de Roupas — Trabalho 1 de Sistemas Distribuídos
 
-**Universidade Federal do Ceará (UFC) - Campus Quixadá**  
-**Disciplina:** Sistemas Distribuídos (QXD0043)  
-**Professor:** Rafael Braga  
-
----
 
 ## 📌 Sobre o Projeto
 

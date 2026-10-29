@@ -1,6 +1,6 @@
 class Estoque:
     def __init__(self):
-        self.itens = [] # Agregação (Lista de objetos PecaRoupa)
+        self.itens = [] # agregação (lista de objetos PecaRoupa)
         
     def adicionar_item(self, item):
         self.itens.append(item)
