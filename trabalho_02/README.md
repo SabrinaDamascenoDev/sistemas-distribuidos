@@ -1,4 +1,4 @@
-# Sistema de Gestão de Loja de Roupas — Trabalho 1 de Sistemas Distribuídos
+# Sistema de Gestão de Loja de Roupas — Trabalho 2 de Sistemas Distribuídos
 
 
 ## 📌 Sobre o Projeto
